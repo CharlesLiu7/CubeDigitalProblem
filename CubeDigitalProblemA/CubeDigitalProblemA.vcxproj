@@ -18,13 +18,10 @@
       <Platform>x64</Platform>
     </ProjectConfiguration>
   </ItemGroup>
-  <ItemGroup>
-    <None Include="Readme.md" />
-  </ItemGroup>
   <PropertyGroup Label="Globals">
-    <ProjectGuid>{E5C22480-B7F2-4662-9388-77C8008ECCC2}</ProjectGuid>
+    <ProjectGuid>{1A1B007B-3711-4449-B9D1-41FFA0E10BE2}</ProjectGuid>
     <Keyword>Win32Proj</Keyword>
-    <RootNamespace>CubeDigitalProblem</RootNamespace>
+    <RootNamespace>CubeDigitalProblemA</RootNamespace>
     <WindowsTargetPlatformVersion>8.1</WindowsTargetPlatformVersion>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
@@ -148,6 +145,13 @@
       <GenerateDebugInformation>true</GenerateDebugInformation>
     </Link>
   </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClInclude Include="CubeA.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="functionA.cpp" />
+    <ClCompile Include="main.cpp" />
+  </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
   </ImportGroup>
