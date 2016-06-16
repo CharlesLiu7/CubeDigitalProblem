@@ -20,6 +20,7 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Readme.md" />
+    <None Include="编程作业1—立方数码问题N皇后问题.pdf" />
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <ProjectGuid>{E5C22480-B7F2-4662-9388-77C8008ECCC2}</ProjectGuid>

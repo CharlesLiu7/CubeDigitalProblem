@@ -16,5 +16,6 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Readme.md" />
+    <None Include="编程作业1—立方数码问题N皇后问题.pdf" />
   </ItemGroup>
 </Project>

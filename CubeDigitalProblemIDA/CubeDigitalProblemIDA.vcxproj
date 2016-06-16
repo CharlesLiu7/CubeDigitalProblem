@@ -25,6 +25,14 @@
     <ClCompile Include="functionIDA.cpp" />
     <ClCompile Include="main.cpp" />
   </ItemGroup>
+  <ItemGroup>
+    <Text Include="output.txt" />
+    <Text Include="source.txt" />
+    <Text Include="target.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Readme.md" />
+  </ItemGroup>
   <PropertyGroup Label="Globals">
     <ProjectGuid>{0C15472D-B9A2-4C84-977C-D40B48A94259}</ProjectGuid>
     <Keyword>Win32Proj</Keyword>
